@@ -3,7 +3,7 @@ on: [push]
 
 jobs:
   deploy-app:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: check out the code to build the server
         uses: actions/checkout@v3
